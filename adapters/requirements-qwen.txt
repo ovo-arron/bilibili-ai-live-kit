@@ -1,0 +1,6 @@
+# Optional GPU/voice adapter only; not required for the Node app.
+# Install a suitable PyTorch build for your hardware first.
+qwen-tts
+fastapi
+uvicorn
+soundfile
