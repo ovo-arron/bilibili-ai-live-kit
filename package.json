@@ -1,0 +1,9 @@
+{
+  "name": "bilibili-ai-live-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local Bilibili danmaku console, AI reply bridge and browser-source overlay; bring your own avatar and voice.",
+  "engines": {"node": ">=22.13"},
+  "scripts": {"start": "node server.cjs", "demo": "node server.cjs --demo", "test": "node --test test/*.test.cjs", "benchmark": "node scripts/benchmark.cjs", "audit:release": "node scripts/audit-release.cjs"},
+  "license": "MIT"
+}
